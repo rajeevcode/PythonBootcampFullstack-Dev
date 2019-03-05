@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+   <head>
+      <title> NJV WH AWB </title>
+      <style>@page{sheet-size:105mm 148mm;margin-left:2mm;margin-right:1mm;margin-top:1mm;margin-bottom:1mm;margin-header:1mm,margin-footer:1mm,page-break-before:always}.page{width:298px;height:420px}</style>
+   <body>
+      <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+      <div class="page">
+      <table>
+         <tr>
+            <td width="20%"><img src="http://sg-live.slatic.net/cms/brands_logo/ninjavan_logo_new.png" width="100px"></td><br>
+            <img src="file:///Users/rajeev.kumar/Desktop/Logo_Horizontal.png" class="centerImage" alt="CH Logo" height="80" width="400px">
+         </tr><br>
+      </table>
+      <table border="0">
+         <tr>
+            <td colspan="3"></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+            <td align="center" valign="middle" style="height:70px">
+               <div style="position:absolute;height:60px;overflow-y:hidden;position:relative">
+                  <img style="height:75px;padding-top:5px" src='http://barcode.tec-it.com/barcode.ashx?translate-esc=off&data={{last_mile_tracking_number}}&code=PDF417&unit=Px&dpi=300&imagetype=Jpg&rotation=0&color=000000&bgcolor=FFFFFF&qunit=Mm&quiet=0&modulewidth=2.2' />
+                  <br>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+            <td align="center" valign="middle" style="height:30px;width:25%">
+               <br>
+               <div style="position:absolute;height:35px;overflow-y:hidden;position:relative">
+                  <img style="max-width:300px" src='http://barcode.tec-it.com/barcode.ashx?data={{last_mile_tracking_number}}&code=Code128&dpi=300' alt='Barcode Generator TEC-IT'/>
+                  <br>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+            <td align="center" valign="middle" style="font-size:12px">{{domestic_last_mile_3pl}} : {{last_mile_tracking_number}}</td>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+            <td>
+               <div style="font-size:15px">
+                  RTC
+                  <p>
+                     To : <br>
+                     <strong>{{destination_name}}</strong>
+                  </p>
+                  {{destination_address}}<br>
+                  {{destination_address_details}}<br>
+                  {{destination_city}} {{destination_zipcode}}<br><br>
+                  <!--<Telephone : {{destination_phone}}<br><br>!-->
+               </div>
+            </td>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td valign="bottom" align="center">
+            </td>
+         </tr>
+         <tr>
+            <td colspan="3" align="center">
+               <hr>
+            </td>
+         </tr>
+      </table>
+      <table style="padding-left:15px;border:1px solid black;border-collapse:collapse" width="80%">
+         <tr>
+            <td align="left" style="font-size:15px">
+               From:
+               <br><br>
+               37 Greenwich Drive
+               <br>
+               Level 3, Spore(533864)
+               <br>
+               SINGAPORE
+               <br>
+               Telephone: +65 3157 1774
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
